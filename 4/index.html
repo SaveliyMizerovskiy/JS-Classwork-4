@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body onload="init();">
+    <!--Saveiy Mizerovskiy  what i learned from the classwork is that split function can take a string and turn it into an array and thn you can just put a muber which you want from the array to get a part of that string-->
+    <h1>
+        <span>Alchemy</span>
+    </h1>
+    <div class="box">
+        <h2>My Organism</h2>
+        <div id="orgs"></div>
+        <hr />
+        <form id="orgsform">
+            <input type="number" name="orgsel" />
+        </form>
+        <button onclick="selectOrganism();">Select Organism</button>
+        <button onclick="deleteOrganism();">Delete Organism</button>
+    </div>
+
+    <hr>
+
+    <p>
+        <span id="1st"></span> AND <span id="2nd"></span>
+    </p>
+</body>
+</html>
